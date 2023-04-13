@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --background: #F3F5FC;
+
+    --dark-blue: #0A3871;
+    --gray: #D8DFE8;
+    --dark-gray: #495057;
+
+    --white: white;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+/* container main*/
+.main{
+    width: 1440px;
+    height: 100%;
+    padding: 2rem;
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+/* container one */
+.container_one{
+    width: 900px;
+    height: 900px;
+}
+.container_image{
+    width: 100%;
+    height: 70px;
+}
+.container_textButton{
+    height: 830px;
+    width: 80%;
+    margin-left: 10rem;
+}
+.container_text{
+    border: solid;
+    width: 100%;
+    height: 85%;
+}
+.container_buttons{
+    width: 100%;
+    height: 15%;
+}
+.container_exclamation{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--dark-gray);
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    gap: 2.5rem;
+}
+.button{
+    width: 50%;
+    height: 70px;
+    border-radius: 25px;
+}
+.button_encriptar{
+    background-color: var(--dark-blue);
+    color: var(--gray);
+}
+.button_desencriptar{
+    background-color: transparent;
+    color: var(--dark-blue);
+    border: solid 1px var(--dark-blue);
+}
+
+
+/* container two */
+.container_two{
+    width: 400px;
+    height: 950px;
+    background-color: var(--white);
+    border-radius: 30px;
+}
+
